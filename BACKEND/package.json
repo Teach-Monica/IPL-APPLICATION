@@ -1,0 +1,21 @@
+{
+  "name": "ipl-api",
+  "version": "1.0.0",
+  "description": "Ipl application is an internal application to create/manage Teams/Matches/Players data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Monica",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22",
+    "body-parser": "^1.20.1"
+  }
+}
